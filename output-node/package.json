@@ -1,0 +1,20 @@
+{
+  "name": "dev-api",
+  "version": "0.5.7",
+  "description": "Access DEV articles, comments and other resources via API  # Authentication  <!-- ReDoc-Inject: <security-definitions> -->",
+  "main": "index.js",
+  "scripts": {
+	"prestart": "npm install",
+	"start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "oas3-tools": "^1.0.1"
+  }
+}
